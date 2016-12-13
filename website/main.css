@@ -36,6 +36,27 @@ text-align: center;
 text-align: center;
 }
 
+.Header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+text-align: center;
+}
+
+.logo{
+Background-color: #DCDCDC; 
+  margin: 1px;
+  border: 5px solid #FFF;
+  text-align: center;
+}
+}
+
+.logo.item .thumbnail {
+margin: 10px;
+text-align: center;
+
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
