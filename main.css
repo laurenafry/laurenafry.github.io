@@ -31,9 +31,10 @@ text-align: center;
 
 .page-description {
   border: 1px solid #000;
-  padding: 30px;
+  padding: 1px;
   text-align: center;
 text-align: center;
+margin:5px;
 }
 
 .Header{
@@ -49,7 +50,7 @@ Background-color: #DCDCDC;
   margin: 1px;
   border: 5px solid #FFF;
   text-align: center;
-}
+  padding:1px;
 }
 
 .logo.item .thumbnail {
@@ -61,25 +62,33 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
 text-align: center;
+padding:5px;
 }
 
 .gallery-item {
 Background-color: #DCDCDC; 
-  margin: 30px;
+  margin: 5px;
   border: 5px solid #FFF;
   text-align: center;
-}
+  padding:5px;
+  width:60%;
 }
 
 .gallery-item .thumbnail {
-margin: 20px;
-text-align: center;
-
+	margin: 10px;
+	text-align: center;
+	padding:5px;
 }
 
-/* FOOTER NAVIGATION */
+.gallery-item img{
+	margin:5px;
+	padding:5px;
+	text-align: center;
+}
+
+/* NAVIGATION */
 
 nav {
   background-color: #FFF;
@@ -111,10 +120,38 @@ float: right;
   bottom: 2px;
 }
 
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
+nav a:link {
+	text-decoration:none;
+	color: black;
+	height: 70px;
+  line-height: 70px;
 }
 
+a:link {
+	color: black;
+	height: 70px;
+  line-height: 70px;
+}
+a:visited {
+	text-decoration:none;
+	color:blue;
+	height: 70px;
+  line-height: 70px;
+}
+a:hover{
+	color: #Green
+	font-weight: bold;
+	height: 70px;
+  line-height: 70px;
+  font-size:20px;
+}
+
+/* Automatic Slide Show for Pingree*/
+.myslides fade img{
+	width:60%;
+	margin: 5px;
+  border: 5px solid #FFF;
+  text-align: center;
+  padding:5px;
+  width:60%;
+}
