@@ -1658,7 +1658,7 @@ nav {
   padding: 10px;
   margin-top: 10px;
   font-family: 'Amatic SC', Georgia;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -1667,14 +1667,14 @@ nav li {
   padding: 0 12px;
   display: inline;
   font-family: 'Amatic SC', Georgia;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 nav ul {
   display: inline;
   font-family: 'Amatic SC', Georgia;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -1715,7 +1715,7 @@ nav a:hover{
   font-weight: bold;
   height: 70px;
   line-height: normal;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 
@@ -1739,5 +1739,5 @@ a:hover{
   font-weight: bold;
   height: 70px;
   line-height: normal;
-  font-size:18px;
+  font-size:20px;
 }
