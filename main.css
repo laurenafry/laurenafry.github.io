@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Georgia;
   margin: 0;
 text-align: center;
 }
@@ -62,29 +62,40 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 5px;
 text-align: center;
-padding:5px;
+padding:4px;
 }
 
 .gallery-item {
 Background-color: #DCDCDC; 
-  margin: 5px;
-  border: 5px solid #FFF;
+  margin: 10px;
+  border: 3px solid #FFF;
   text-align: center;
-  padding:5px;
-  width:60%;
+  padding:3px;
+  padding-bottom: 3px;
+  width: 60%;
+  font-size: 1.1em; 
+  font color: Black|#000000|rgb(0, 0, 0);
 }
 
+
+p {
+  margin: .5em;
+  font-size: 1.em; 
+  font color: Black|#000000|rgb(0, 0, 0);
+}
+
+
 .gallery-item .thumbnail {
-	margin: 10px;
+	margin: 2px;
 	text-align: center;
-	padding:5px;
+	padding:3px;
 }
 
 .gallery-item img{
-	margin:5px;
-	padding:5px;
+	margin:2px;
+	padding:3px;
 	text-align: center;
 }
 
@@ -92,6 +103,7 @@ Background-color: #DCDCDC;
 
 nav {
   background-color: #FFF;
+  padding: 10px;
 }
 
 nav li {
@@ -105,12 +117,12 @@ nav ul {
 }
 
 .contact-btn {
-float: right;
+  float: right;
 }
 
 .contact-btn a {
   margin-right: 30px;
-  padding: 8px 18px;
+  padding: 10px 10px;
   border: 1px solid #204156;
 
 }
@@ -124,26 +136,29 @@ nav a:link {
 	text-decoration:none;
 	color: black;
 	height: 70px;
-  line-height: 70px;
+  line-height: normal;
 }
 
 a:link {
 	color: black;
 	height: 70px;
-  line-height: 70px;
+ line-height: normal;
 }
+
 a:visited {
 	text-decoration:none;
 	color:blue;
 	height: 70px;
-  line-height: 70px;
+ line-height: normal;
 }
+
 a:hover{
 	color: #Green
 	font-weight: bold;
 	height: 70px;
-  line-height: 70px;
-  font-size:20px;
+  line-height: normal;
+  font-size:18px;
+
 }
 
 /* Automatic Slide Show for Pingree*/
