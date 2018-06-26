@@ -8,9 +8,8 @@ html, body {
 }
 
 body {
-font-family:'Simonetta', Georgia;
   margin: 0;
-text-align: center;
+  text-align: center;
 }
 
 #bg {
@@ -27,11 +26,10 @@ text-align: center;
   text-align: center;
   font-weight: 100;
   text-align: center;
-  font-family: 'Simonetta', Georgia;
 }
 
 .page-description {
-  background-color: rgb(203, 233, 226); 
+  background-color: #CBE9E2, rgb(203, 233, 226)2; 
   border: 1px solid #000;
   padding: 5px;
   text-align: center;
@@ -47,7 +45,6 @@ text-align: center;
   justify-content: center;
   margin-top: 10px;
   text-align: center;
-  font-family: 'Simonetta', Georgia;
 }
 
 .logo{
@@ -68,12 +65,12 @@ text-align: center;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5px;
-text-align: center;
-padding:4px;
+  text-align: center;
+  padding:4px;
 }
 
 .gallery-item {
-Background-color: #DCDCDC; 
+  Background-color: #DCDCDC; 
   margin: 10px;
   border: 3px solid #FFF;
   text-align: center;
@@ -111,8 +108,8 @@ nav {
   background-color: #FFF;
   padding: 10px;
   margin-top: 10px;
-  font-family: 'Amatic SC';
-  font-size: 22px;
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -120,15 +117,15 @@ nav li {
   margin: 0;
   padding: 0 12px;
   display: inline;
-  font-family: 'Amatic SC';
-  font-size: 22px;
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
   font-weight: bold;
 }
 
 nav ul {
   display: inline;
-  font-family: 'Amatic SC';
-  font-size: 22px;
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -169,7 +166,7 @@ nav a:hover{
 	font-weight: bold;
 	height: 70px;
   line-height: normal;
-  font-size:26px;
+  font-size:18px;
 }
 
 

@@ -1535,6 +1535,18 @@ p.ism-badge a.ism-link:hover {
 
 
 
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
 
 #bg {
   position: fixed; 
@@ -1549,15 +1561,18 @@ p.ism-badge a.ism-link:hover {
 .page-title {
   text-align: center;
   font-weight: 100;
-text-align: center;
+  text-align: center;
 }
 
 .page-description {
+  background-color: #CBE9E2, rgb(203, 233, 226); 
   border: 1px solid #000;
-  padding: 1px;
+  padding: 5px;
   text-align: center;
-text-align: center;
-margin:5px;
+  margin: 5px;
+  font-family: 'Simonetta', Georgia;
+  font-size: 18px; 
+  font-weight: bold;
 }
 
 .Header{
@@ -1565,11 +1580,11 @@ margin:5px;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
-text-align: center;
+  text-align: center;
 }
 
 .logo{
-Background-color: #DCDCDC; 
+  background: #DCDCDC url("watercolor.jpg") no-repeat right top; 
   margin: 1px;
   border: 5px solid #FFF;
   text-align: center;
@@ -1586,12 +1601,12 @@ text-align: center;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5px;
-text-align: center;
-padding:4px;
+  text-align: center;
+  padding:4px;
 }
 
 .gallery-item {
-Background-color: #DCDCDC; 
+  Background-color: #DCDCDC; 
   margin: 10px;
   border: 3px solid #FFF;
   text-align: center;
@@ -1616,9 +1631,11 @@ Background-color: #DCDCDC;
 
 p {
   margin: .5em;
-  font-size: 1.em; 
+  font-size: 1.0em; 
   font color: Black|#000000|rgb(0, 0, 0);
+  font-family: 'Simonetta, Georgia;
 }
+
 
 
 .gallery-item .thumbnail {
@@ -1633,22 +1650,32 @@ p {
 	text-align: center;
 }
 
+
 /* NAVIGATION */
 
 nav {
   background-color: #FFF;
   padding: 10px;
+  margin-top: 10px;
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 nav li {
-  margin: 10;
-  padding: 10px 10px;
+  margin: 0;
+  padding: 0 12px;
   display: inline;
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 nav ul {
   display: inline;
-
+  font-family: 'Amatic SC', Georgia;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .contact-btn {
@@ -1657,13 +1684,16 @@ nav ul {
 
 .contact-btn a {
   margin-right: 30px;
-  padding: 10px 10px;
+  padding: 10px;
+  padding-bottom: 14px;
   border: 1px solid #204156;
+  font-weight: bold;
+
 }
 
 .contact-btn a:active {
   position: relative;
-  bottom: 2px;
+  border: 2px solid #204156;
 }
 
 nav a:link {
@@ -1673,23 +1703,41 @@ nav a:link {
   line-height: normal;
 }
 
-a:link {
-	color: black;
+nav a:visited {
+	text-decoration:none;
+        font-color: #40917e;
 	height: 70px;
- line-height: normal;
+        line-height: normal;
+}
+
+nav a:hover{
+  color: #40917e;
+  font-weight: bold;
+  height: 70px;
+  line-height: normal;
+  font-size: 18px;
+}
+
+
+/* Links */
+
+a:link {
+  color: black;
+  height: 70px;
+  line-height: normal;
 }
 
 a:visited {
-	text-decoration:none;
-	color:blue;
-	height: 70px;
- line-height: normal;
+  text-decoration:none;
+  color: #40917e;
+  height: 70px;
+  line-height: normal;
 }
 
 a:hover{
-	color: #Green
-	font-weight: bold;
-	height: 70px;
+  color: #40917e;
+  font-weight: bold;
+  height: 70px;
   line-height: normal;
   font-size:18px;
 }
