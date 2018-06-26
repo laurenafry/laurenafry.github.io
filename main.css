@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  font-family: 'Lato', Georgia;
+font-family:'Simonetta', Georgia;
   margin: 0;
 text-align: center;
 }
@@ -26,15 +26,19 @@ text-align: center;
 .page-title {
   text-align: center;
   font-weight: 100;
-text-align: center;
+  text-align: center;
+  font-family: 'Simonetta', Georgia;
 }
 
 .page-description {
+  background-color: rgb(203, 233, 226); 
   border: 1px solid #000;
-  padding: 1px;
+  padding: 5px;
   text-align: center;
-text-align: center;
-margin:5px;
+  margin: 5px;
+  font-family: 'Simonetta', Georgia;
+  font-size: 18px; 
+  font-weight: bold;
 }
 
 .Header{
@@ -42,11 +46,12 @@ margin:5px;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
-text-align: center;
+  text-align: center;
+  font-family: 'Simonetta', Georgia;
 }
 
 .logo{
-Background-color: #DCDCDC; 
+  background: #DCDCDC url("watercolor.jpg") no-repeat right top; 
   margin: 1px;
   border: 5px solid #FFF;
   text-align: center;
@@ -56,8 +61,8 @@ Background-color: #DCDCDC;
 .logo.item .thumbnail {
 margin: 10px;
 text-align: center;
-
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +89,7 @@ p {
   margin: .5em;
   font-size: 1.em; 
   font color: Black|#000000|rgb(0, 0, 0);
+  font-family: 'Simonetta, Georgia;
 }
 
 
@@ -104,16 +110,26 @@ p {
 nav {
   background-color: #FFF;
   padding: 10px;
+  margin-top: 10px;
+  font-family: 'Amatic SC';
+  font-size: 22px;
+  font-weight: bold;
 }
 
 nav li {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 12px;
   display: inline;
+  font-family: 'Amatic SC';
+  font-size: 22px;
+  font-weight: bold;
 }
 
 nav ul {
   display: inline;
+  font-family: 'Amatic SC';
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .contact-btn {
@@ -122,14 +138,16 @@ nav ul {
 
 .contact-btn a {
   margin-right: 30px;
-  padding: 10px 10px;
+  padding: 10px;
+  padding-bottom: 14px;
   border: 1px solid #204156;
+  font-weight: bold;
 
 }
 
 .contact-btn a:active {
   position: relative;
-  bottom: 2px;
+  border: 2px solid #204156;
 }
 
 nav a:link {
@@ -139,32 +157,50 @@ nav a:link {
   line-height: normal;
 }
 
-a:link {
-	color: black;
-	height: 70px;
- line-height: normal;
-}
-
-a:visited {
+nav a:visited {
 	text-decoration:none;
-	color:blue;
+        font-color: #40917e;
 	height: 70px;
- line-height: normal;
+        line-height: normal;
 }
 
-a:hover{
-	color: #Green
+nav a:hover{
+	color: #40917e;
 	font-weight: bold;
 	height: 70px;
   line-height: normal;
-  font-size:18px;
+  font-size:26px;
+}
 
+
+/* Links */
+
+
+a:link {
+  color: black;
+  height: 70px;
+  line-height: normal;
+}
+
+a:visited {
+  text-decoration:none;
+  color: #40917e;
+  height: 70px;
+  line-height: normal;
+}
+
+a:hover{
+  color: #40917e;
+  font-weight: bold;
+  height: 70px;
+  line-height: normal;
+  font-size:18px;
 }
 
 /* Automatic Slide Show for Pingree*/
 .myslides fade img{
-	width:60%;
-	margin: 5px;
+  width:60%;
+  margin: 5px;
   border: 5px solid #FFF;
   text-align: center;
   padding:5px;
